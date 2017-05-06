@@ -127,7 +127,7 @@ void SixteenSegmentManager::render(uint16_t value, uint32_t x, uint32_t y)
  * @Param x: x location of the display
  * @Param y: y location of the display
  */
-void SixteenSegmentManager::render(char8_t c, uint32_t x, uint32_t y)
+void SixteenSegmentManager::render(char8_t c, uint32_t x, uint32_t y) 
 {
 	switch(c)
 	{

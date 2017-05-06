@@ -53,7 +53,8 @@ private:
 	void initializeFunctionPointers();
 	static SixteenSegmentManager* instance;
 
-	void(SixteenSegmentManager::* displaySegment[16])(bool8_t on, uint32_t x, uint32_t y);
+	void (SixteenSegmentManager::* displaySegment[16])(bool8_t on, uint32_t x, uint32_t y);
+
 	void seg_0(bool8_t on, uint32_t x, uint32_t y);
 	void seg_1(bool8_t on, uint32_t x, uint32_t y);
 	void seg_2(bool8_t on, uint32_t x, uint32_t y);
