@@ -3,11 +3,10 @@
 #include <stdarg.h>												// Header File For Variable Argument Routines
 #include <math.h>												// Header File For Math Operations
 #include <gl/gl.h>												// Header File For The OpenGL32 Library
-#include <gl\glu.h>												// Header File For The GLu32 Library
+#include <gl/glu.h>												// Header File For The GLu32 Library
 #include <vector>
 #include <stdlib.h>
 #include "basetypes.h"
-#include "glut.h"
 #include "PlayerManager.h"
 #include "ScoreBoardManager.h"
 #include "SixteenSegmentManager.h"
@@ -80,7 +79,7 @@ void ScoreBoardManager::drawString(char* text, float x, float y) {
 
 	for (auto character = text; *character; character++)
 	{
-		glutStrokeCharacter(GLUT_STROKE_ROMAN, *character);
+//		glutStrokeCharacter(GLUT_STROKE_ROMAN, *character);
 	}
 	glPopMatrix();
 }

@@ -132,4 +132,7 @@
       <UniqueIdentifier>{996ce416-7147-417b-9f44-05fa00d3cdb1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
 </Project>

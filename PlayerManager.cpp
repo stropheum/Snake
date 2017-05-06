@@ -108,7 +108,7 @@ void PlayerManager::reset()
 		tail[i].y = -1;
 	}
 
-	PlaySound("Respawn.wav", NULL, SND_FILENAME | SND_ASYNC);
+	PlaySound("Respawn.wav", nullptr, SND_FILENAME | SND_ASYNC);
 }
 
 void PlayerManager::handleMovement(DWORD milliseconds)
